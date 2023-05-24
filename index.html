@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="tools/images/favicon-32x32.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style-light.css">
+        <script src="script.js"></script>
+        <title>Social media dashboard</title>
+    </head>
+    <body>
+        <center>
+            <div class="header">
+                <div class="header-text">
+                    <h1 class="title">Soical Media Dashboard</h1>
+                    <p class="total">Total Followers: 23,004</p>
+                </div>
+                <p class="mode-text">Dark Mode</p>
+                <button class="change-mode" onclick="changeMode();"></button>
+                <button class="mode-circle" onclick="changeMode();"></button>
+            </div>
+            <div class="top">
+                <div class="top-unit facebook">
+                    <img src="tools/images/icon-facebook.svg" class="top-logo">
+                    <p class="top-name">@nathanf</p>
+                    <h1 class="top-number">1987</h1>
+                    <h2 class="top-followers">FOLLOWERS</h2>
+                    <div class="top-rise-up">
+                        <img src="tools/images/icon-up.svg" class="top-rise-up-img">
+                        <p class="top-rise-up-number">12 Today</p>
+                    </div>
+                </div>
+                <div class="top-unit twitter">
+                    <img src="tools/images/icon-twitter.svg" class="top-logo">
+                    <p class="top-name">@nathanf</p>
+                    <h1 class="top-number">1044</h1>
+                    <h2 class="top-followers">FOLLOWERS</h2>
+                    <div class="top-rise-up">
+                        <img src="tools/images/icon-up.svg" class="top-rise-up-img">
+                        <p class="top-rise-up-number">99 Today</p>
+                    </div>
+                </div>
+                <div class="top-unit instagram">
+                    <img src="tools/images/icon-instagram.svg" class="top-logo">
+                    <p class="top-name">@realnathanf</p>
+                    <h1 class="top-number">11K</h1>
+                    <h2 class="top-followers">FOLLOWERS</h2>
+                    <div class="top-rise-up">
+                        <img src="tools/images/icon-up.svg" class="top-rise-up-img">
+                        <p class="top-rise-up-number">1099 Today</p>
+                    </div>
+                </div>
+                <div class="top-unit youtube">
+                    <img src="tools/images/icon-youtube.svg" class="top-logo">
+                    <p class="top-name">Natan F.</p>
+                    <h1 class="top-number">8239</h1>
+                    <h2 class="top-followers">SUBSRIBERS</h2>
+                    <div class="top-rise-down">
+                        <img src="tools/images/icon-down.svg" class="top-rise-down-img">
+                        <p class="top-rise-down-number">144 Today</p>
+                    </div>
+                </div>
+            </div>
+            <h1 class="overview">Overview - Today</h1>
+            <div class="bottom">
+                <div class="bottom-unit">
+                    <h2 class="bottom-followers">Page Views</h2>
+                    <img src="tools/images/icon-facebook.svg" class="bottom-logo">
+                    <h1 class="bottom-number">87</h1>
+                    <div class="bottom-rise">
+                        <img src="tools/images/icon-up.svg" class="down-rise-up-img">
+                        <p class="bottom-rise-up-number">3%</p>
+                    </div>
+                </div>
+                <div class="bottom-unit">
+                    <h2 class="bottom-followers">Likes</h2>
+                    <img src="tools/images/icon-facebook.svg" class="bottom-logo">
+                    <h1 class="bottom-number">52</h1>
+                    <div class="bottom-rise">
+                        <img src="tools/images/icon-down.svg" class="bottom-rise-down-img">
+                        <p class="bottom-rise-down-number">2%</p>
+                    </div>
+                </div>
+                <div class="bottom-unit">
+                    <h2 class="bottom-followers">Likes</h2>
+                    <img src="tools/images/icon-instagram.svg" class="bottom-logo">
+                    <h1 class="bottom-number">5462</h1>
+                    <div class="bottom-rise">
+                        <img src="tools/images/icon-up.svg" class="down-rise-up-img">
+                        <p class="bottom-rise-up-number">2257%</p>
+                    </div>
+                </div>
+                <div class="bottom-unit">
+                    <h2 class="bottom-followers">Profile Views</h2>
+                    <img src="tools/images/icon-instagram.svg" class="bottom-logo">
+                    <h1 class="bottom-number">52k</h1>
+                    <div class="bottom-rise">
+                        <img src="tools/images/icon-up.svg" class="down-rise-up-img">
+                        <p class="bottom-rise-up-number">1375%</p>
+                    </div>
+                </div>
+                <div class="bottom-unit">
+                    <h2 class="bottom-followers">Retweets</h2>
+                    <img src="tools/images/icon-twitter.svg" class="bottom-logo">
+                    <h1 class="bottom-number">117</h1>
+                    <div class="bottom-rise">
+                        <img src="tools/images/icon-up.svg" class="down-rise-up-img">
+                        <p class="bottom-rise-up-number">303%</p>
+                    </div>
+                </div>
+                <div class="bottom-unit">
+                    <h2 class="bottom-followers">Likes</h2>
+                    <img src="tools/images/icon-twitter.svg" class="bottom-logo">
+                    <h1 class="bottom-number">507</h1>
+                    <div class="bottom-rise">
+                        <img src="tools/images/icon-up.svg" class="down-rise-up-img">
+                        <p class="bottom-rise-up-number">553%</p>
+                    </div>
+                </div>
+                <div class="bottom-unit">
+                    <h2 class="bottom-followers">Likes</h2>
+                    <img src="tools/images/icon-youtube.svg" class="bottom-logo">
+                    <h1 class="bottom-number">107</h1>
+                    <div class="bottom-rise">
+                        <img src="tools/images/icon-down.svg" class="bottom-rise-down-img">
+                        <p class="bottom-rise-down-number">19%</p>
+                    </div>
+                </div>
+                <div class="bottom-unit">
+                    <h2 class="bottom-followers">Total Views</h2>
+                    <img src="tools/images/icon-youtube.svg" class="bottom-logo">
+                    <h1 class="bottom-number">1407</h1>
+                    <div class="bottom-rise">
+                        <img src="tools/images/icon-down.svg" class="bottom-rise-down-img">
+                        <p class="bottom-rise-down-number">12%</p>
+                    </div>
+                </div>
+            </div>
+        </center>
+    </body>
+</html>

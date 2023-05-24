@@ -1,0 +1,209 @@
+:root{
+    --lime-green: hsl(163, 72%, 41%);
+    --bright-red: hsl(356, 69%, 56%);
+    --facebook: hsl(208, 92%, 53%);
+    --twitter: hsl(203, 89%, 53%);
+    --instagram: linear-gradient(hsl(37, 97%, 70%) to hsl(329, 70%, 58%));
+    --youtube: hsl(348, 97%, 39%);
+
+    /* Dark Theme */
+    --dark-toggle: linear-gradient(to left, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+    
+    /* Light Theme */
+    --light-toggle: hsl(230, 22%, 74%);
+
+    /* Dark Theme */
+    --very-dark-blue-bg: hsl(230, 17%, 14%);
+    --very-dark-blue-top-bg-pattern: hsl(232, 19%, 15%);
+    --dark-desaturated-blue-card-bg: hsl(228, 28%, 20%);
+    --desaturated-blue-text: hsl(228, 34%, 66%);
+    --white-text: hsl(0, 0%, 100%);
+
+    /* Light Theme */
+    --white-bg: hsl(0, 0%, 100%);
+    --very-pale-blue-top-bg-pattern: hsl(225, 100%, 98%);
+    --light-grayish-blue-card-bg: hsl(227, 47%, 96%);
+    --dark-grayish-blue-text: hsl(228, 12%, 44%);
+    --very-dark-blue-text: hsl(230, 17%, 14%);
+}
+body{
+    padding-right: 340px;
+    padding-left: 340px;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to bottom,
+    var(--very-dark-blue-top-bg-pattern) 0%,
+    var(--very-dark-blue-top-bg-pattern) 37%,
+    var(--very-dark-blue-bg) 0%,
+    var(--very-dark-blue-bg) 63%);
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.title{
+    color: white;
+    font-size: 28px;
+    margin-top: 25px;
+    margin-bottom: -10px;
+}
+.total{
+    color: var(--desaturated-blue-text);
+    font-size: 15px;
+    font-weight: 800;
+}
+.mode-text{
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    margin-right: -732px;
+    margin-left: 732px;
+    margin-top: 41px;
+}
+.change-mode{
+    margin-left: 750px;
+    margin-top: 40px;
+    width: 50px;
+    height: 23px;
+    border-radius: 20px;
+    border: none;
+}
+.mode-circle{
+    background-color: var(--dark-desaturated-blue-card-bg);
+    position: absolute;
+    top: 121.5px;
+    right: 396px;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    border: none;
+}
+
+/* Top Units: */
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top-unit{
+    background-color: var(--dark-desaturated-blue-card-bg);
+    width: 230px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.facebook{
+    border-top: 4px solid var(--facebook);
+}
+.twitter{
+    border-top: 4px solid var(--twitter);
+}
+.instagram{
+    border-top: 4px solid var(--youtube);
+}
+.youtube{
+    border-top: 4px solid var(--youtube);
+}
+.top-logo{
+    float: left;
+    margin-left: 70px;
+    margin-right: -40px;
+    margin-top: 5px;
+}
+.top-name{
+    color: var(--desaturated-blue-text);
+    margin-top: 5px;
+    margin-bottom: -5px;
+    font-size: 14px;
+    font-weight: 800;
+}
+.top-number{
+    color: white;
+    font-size: 60px;
+    margin-left: 7px;
+    margin-bottom: -20px;
+}
+.top-followers{
+    font-size: 18px;
+    color: var(--desaturated-blue-text);
+}
+.top-rise-up, .top-rise-down{
+    margin-top: 30px;
+}
+.top-rise-up-img, .top-rise-down-img{
+    float: left;
+    margin-top: 8px;
+    margin-left: 80px;
+    margin-right: -48px;
+}
+.top-rise-up-number{
+    color: var(--lime-green);
+    font-weight: 800;
+}
+.top-rise-down-number{
+    color: var(--bright-red);
+    font-weight: 800;
+}
+
+/* Down Units: */
+
+.overview{
+    color: white;
+    margin-top: 80px;
+    margin-left: -940px
+}
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bottom-unit{
+    flex: 0 0 23%;
+    background-color: var(--dark-desaturated-blue-card-bg);
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 20px;
+} 
+.bottom-followers{
+    color: var(--desaturated-blue-text);
+    text-align: left;
+    margin-left: 20px;
+}
+.bottom-logo{
+    float: right;
+    margin-top: -45px;
+    margin-right: 20px;
+}
+.bottom-number{
+    color: white;
+    float: left;
+    margin-left: 20px;
+}
+.bottom-rise{
+    float: right;
+    margin-right: 20px;
+}
+.down-rise-up-img{
+    margin-right: 7px;
+    margin-top: 42px;
+}
+.bottom-rise-down-img{
+    margin-right: 7px;
+    margin-top: 42px;
+}
+.bottom-rise-up-number{
+    color: var(--lime-green);
+    font-weight: 800;
+    float: right;
+    margin-top: 35px;
+    margin-bottom: -40px;
+}
+.bottom-rise-down-number{
+    color: var(--bright-red);
+    font-weight: 800;
+    float: right;
+    margin-top: 35px;
+    margin-bottom: -40px;
+}
